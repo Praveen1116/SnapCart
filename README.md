@@ -29,7 +29,7 @@ Users can browse items, add/remove products from the cart, and view their total 
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/ekart-system.git
+   git clone https://github.com/Praveen1116/SnapCart.git
 
 2. Open index.html in your browser
 cd ekart-system
