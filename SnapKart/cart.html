@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Permanent+Marker&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="heading">
+        <h1><a href="index.html">SnapCart</a></h1>
+    </div>
+
+    <div class="navigation">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html" class="login-link">Login</a></li>
+                <li><a href="signup.html" class="signup-link">Sign Up</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="cart.html" class="cart-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="cart-container">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="cart-total">
+            <p>Total: <span id="total-price">$0.00</span></p>
+            <button id="checkout-btn">Checkout</button>
+            <p id="checkout-msg">Your Checkout has been done, Congratulations!. Visit us again.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <div class="footer-content">
+            <p id="msg">&copy; 2023 SnapCart. All rights reserved.</p>
+            <p class="social">
+                <a href="https://www.linkedin.com/in/praveenkumaryadav1611/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/Praveen18611166" target="_blank"><i class="fa-brands fa-x-twitter"></i></i></a>
+                <a href="https://github.com/Praveen1116" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                <a href="mailto:kpraveen1116@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </p>
+        </div>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
